@@ -7,7 +7,7 @@ public class DatabaseConnection {
             Class.forName("com.mysql.cj.jdbc.Driver");
         } catch (ClassNotFoundException e) { e.printStackTrace(); }
         return DriverManager.getConnection(
-            "jdbc:mysql://localhost:3306/p23137_erg2_university?useSSL=false&serverTimezone=UTC", 
+            "jdbc:mysql://localhost:3306/database?useSSL=false&serverTimezone=UTC", 
             "root", "adminPass123");
     }
 }
