@@ -82,11 +82,11 @@
 
 **2. Database Schema Initialization:**
 * Open your preferred database tool (e.g., MySQL Workbench).
-* Execute the provided database structural script (`p23137_erg3_university.sql`) to generate the relational schemas, establish foreign key cascade constraints, and seed core system entities utilizing native SHA-256 data-hashing functions.
+* Execute the provided database structural script to generate the relational schemas, establish foreign key cascade constraints, and seed core system entities utilizing native SHA-256 data-hashing functions.
 
 **3. Application Deployment & Build:**
 * Clone or download the source repository and import the workspace folder structure directly into your Enterprise IDE (Eclipse IDE for Enterprise Java or IntelliJ IDEA).
-* Review the resource parameters within the target `DatabaseConnection.java` utility class to ensure the connection string (`jdbc:mysql://localhost:3306/p23137_erg3_university`), database username, and user password credentials align precisely with your local environment.
+* Review the resource parameters within the target `DatabaseConnection.java` utility class to ensure the connection string, database username, and user password credentials align precisely with your local environment.
 * Perform an IDE project clean command, compile the artifacts into an enterprise web application archive file (`.war`), and mount it directly into your Tomcat instance's target server deployment paths.
 
 ---
